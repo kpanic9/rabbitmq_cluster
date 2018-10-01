@@ -33,6 +33,14 @@ terraform apply
 ```
 
 
+Outputs
+
+RabitMQ URL
+
+
+
+
+
 Tear down the cluster
 
 ```
