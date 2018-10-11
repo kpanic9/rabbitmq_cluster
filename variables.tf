@@ -6,12 +6,12 @@
 
 
 variable "node_ami" {
-	default = "ami-0782017a917e973e7"
+	default = ""
 }
 
 
 variable "instance_type" {
-	default = "t2.micro"
+	default = ""
 }
 
 
