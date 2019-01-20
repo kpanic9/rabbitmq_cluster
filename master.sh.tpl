@@ -38,4 +38,3 @@ a=`rabbitmqctl join_cluster rabbit@$slave`
 echo $a >> /tmp/a 
 
 rabbitmqctl start_app
-
