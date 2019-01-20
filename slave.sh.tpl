@@ -33,4 +33,3 @@ systemctl start rabbitmq-server
 rabbitmqctl stop_app
 rabbitmqctl reset
 rabbitmqctl start_app
-
