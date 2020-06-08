@@ -7,30 +7,30 @@
 
 # ami of the cluster nodes
 variable "node_ami" {
-	default = ""
+  default = ""
 }
 
 
 # aws instance type for nodes
 variable "instance_type" {
-	default = ""
+  default = ""
 }
 
 
 # key pair name for logging into the cluster nodes
 variable "key" {
-	default = ""
+  default = ""
 }
 
 
 # private subnet id to provision the cluster
 variable "sunbet" {
-	default = ""
+  default = ""
 }
 
 
 # rabbitmq node security group
 variable "security_group" {
-	default = ""
+  default = ""
 }
 
