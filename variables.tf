@@ -1,36 +1,25 @@
-/*
- * Configuration Variables
- *
- *
- */
-
-
-# ami of the cluster nodes
-variable "node_ami" {
-  default = ""
+variable "ami_id" {
+  description = "AMI ID to launch cluster nodes"
+  type        = string
 }
 
-
-# aws instance type for nodes
 variable "instance_type" {
-  default = ""
+  description = "AWS instance type for nodes"
+  type        = string
 }
 
-
-# key pair name for logging into the cluster nodes
 variable "key" {
-  default = ""
+  description = "EC2 key pair name for logging into the cluster nodes"
+  type        = string
 }
 
-
-# private subnet id to provision the cluster
 variable "sunbet" {
-  default = ""
+  description = "Private subnet id to provision the cluster"
+  type        = string
 }
 
-
-# rabbitmq node security group
 variable "security_group" {
-  default = ""
+  description = "RabbitMQ node security group"
+  type        = string
 }
 

@@ -32,7 +32,6 @@ systemctl start rabbitmq-server
 rabbitmqctl stop_app
 rabbitmqctl reset
 
-#####
 slave=`echo ${slave-node} | awk -F '.' '{print $1}'`
 a=`rabbitmqctl join_cluster rabbit@$slave`
 echo $a >> /tmp/a 
